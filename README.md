@@ -6,7 +6,6 @@ This ia an application that allows a users to views popular news, upcoming news 
 Owino Lawrence Odhiambo
 
 ## Behaviour Driven Development(BDD)
-#### Behaviour 
 
 #### Input
 click on news title
@@ -15,7 +14,7 @@ News dartail display
 
 ## Installation
 Step to view this application :
-1 Clone this repo. (https://github.com/owinolawrence/Password-locker.git)
+1 Clone this repo. (https://github.com/owinolawrence/News-highlight.git)
 
 2 Open the repo using your preffered text editor e.g vscode.
 
