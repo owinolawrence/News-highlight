@@ -5,7 +5,6 @@ from ..requests import get_sources,get_articles
 # from .forms import ReviewForm
 from ..models import Sources
 
-# Reviews = reviews.Review
 
 
 
