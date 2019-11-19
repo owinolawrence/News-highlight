@@ -2,13 +2,12 @@
 
 {% for sources in sources_list %}
 <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 movie-card">
-   
+
     <h3 class="text-center">
         <a href="/sources/{{sources.id}}">
             {{ sources.id|truncate(10)}}</a>
     </h3>
-    <!-- <img src="{{ sources.url }}" alt="{{ sources.id }} " class="img-responsive"> -->
- 
+
     <!-- <a href="{{sources.url}}">{{sources.id}}</a> -->
     <small>{{sources.description}}</small>
 
@@ -17,31 +16,3 @@
 {% endfor %}
 
 {% endmacro %}
-<!-- {% macro displaySourceList(source_list) %}
-{% for source_row in source_list |batch(4)%}
-<div class="container-fluid">
-	<div class="row">
-		{% for sources in source_row %}
-		<div class="col-md-3">
-			<div class="card">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<a href="/sources/{{sources.id}}">
-							{{ sources.name}}
-						</a>
-					</div>
-					<div class="panel-body">
-						<p>
-							{{ sources.description |truncate(100)}}
-						</p>
-						<a href="/sources/{{sources.id}}" class="btn btn-success btn-sm">Visit {{sources.name}}</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		{% endfor %}
-	</div>
-</div>
-{% endfor %}
-{% endmacro %}
- -->
